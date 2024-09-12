@@ -1,0 +1,12 @@
+.inputBar {
+    background-color: var(--gray-figma-500);
+    color: var(--purple-50);
+
+    height: 3.25rem;
+    padding: 1rem;
+    width: 100%;
+    line-height: 1.4;
+
+    border: 1px solid var(--purple-950);
+    border-radius: 8px;
+}

@@ -1,0 +1,34 @@
+.content {
+    max-width: 46rem;
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 24px 0;
+    border-bottom: 1px solid var(--gray-figma-400);
+}
+
+.contentEmpty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 0;
+    color: var(--gray-figma-300)
+}
+
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    gap: 0.25rem;
+}

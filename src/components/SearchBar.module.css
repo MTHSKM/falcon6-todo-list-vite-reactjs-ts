@@ -1,0 +1,10 @@
+.searchBarForm {
+    display: flex;
+    flex: 1;
+  
+    justify-content: space-between;
+    gap: 0.5rem;  
+
+    margin-top: calc(0px - 1.5rem - 6px);
+    margin-bottom: 2.3125rem;
+}

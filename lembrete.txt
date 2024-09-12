@@ -1,0 +1,46 @@
+task:
+[
+    {
+        id: uuid(),
+        title: 'primeiro desafio',
+        isComplete: true
+    },
+    {
+        id: uuid(),
+        title: 'segundo desafio',
+        isComplete: false
+    }
+]
+
+
+
+const [task, setTask] = useState()
+
+setTask(...task, newTask)
+
+tasks.map((task) => {
+    ...task,
+    !isComplete
+})
+
+task.filter
+
+
+tarefas criadas = task.lenght
+
+
+let task = ['primeiro', 'segundo', 'terceiro']
+
+let quantidadesTask = task.reduce(function (alltasks, task) {
+    if (task in alltasks) {
+        alltasks[task]++
+    }
+    else{
+        alltasks[task] = task
+    }
+    return alltasks
+}, {task})
+
+
+
+

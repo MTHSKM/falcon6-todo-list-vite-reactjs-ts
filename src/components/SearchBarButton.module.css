@@ -1,0 +1,30 @@
+.buttonBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 3.25rem;
+    padding: 1rem;
+
+    background-color: var(--purple-700);
+    color: var(--purple-50);
+
+    border: 0;
+    border-radius: 8px;
+    gap: 0.5rem;
+    box-shadow: none;
+
+    line-height: 140%;
+    font-weight: bold;
+    font-size: 0.875rem;
+
+    transition: 0.2s;
+}
+
+.icon {
+    color: var(--purple-50)
+}
+
+.buttonBar:hover {
+    background-color: var(--purple-400);
+}
